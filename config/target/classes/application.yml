@@ -1,0 +1,18 @@
+server:
+  port: 8088
+#公共配置
+spring:
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+    config:
+      server:
+        git:
+          # Git仓库地址
+          uri: https://gitee.com/wangzhixin428/test.git
+          # Git仓库账号
+          username: 15711430607
+          # Git仓库密码
+          password: WZX137258!
+

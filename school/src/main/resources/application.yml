@@ -1,0 +1,16 @@
+server:
+  port: 8000
+
+spring:
+  application:
+    name: school-server
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+feign:
+  client:
+    config:
+      default:
+        connectTimeout: 60000
+        readTimeout: 10000
