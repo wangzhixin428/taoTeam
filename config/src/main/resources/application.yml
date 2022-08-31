@@ -2,6 +2,8 @@ server:
   port: 8088
 #公共配置
 spring:
+  profiles:
+    active: test
   cloud:
     nacos:
       discovery:
