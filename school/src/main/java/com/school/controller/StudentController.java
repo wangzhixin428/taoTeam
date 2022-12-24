@@ -27,6 +27,7 @@ public class StudentController {
     public Object rs(HttpServletRequest request){
         Map<String,Object> map=new HashMap<>();
         map.put("张三",100);
+        System.out.println("test");
         // 这里的使用本地Java API的方式调用远程的Restful接口
         String echo = testService.echo();
         System.out.println(echo);
