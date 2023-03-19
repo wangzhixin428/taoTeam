@@ -2,6 +2,8 @@ server:
   port: 8088
 #公共配置
 spring:
+  profiles:
+    active: test
   cloud:
     nacos:
       discovery:
@@ -15,4 +17,3 @@ spring:
           username: 15711430607
           # Git仓库密码
           password: WZX137258!
-
