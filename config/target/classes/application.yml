@@ -4,6 +4,8 @@ server:
 spring:
   profiles:
     active: test
+  application:
+    name: config-server
   cloud:
     nacos:
       discovery:

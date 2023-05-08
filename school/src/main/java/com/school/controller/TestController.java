@@ -31,7 +31,7 @@ public class TestController {
         System.out.println(selectConverterAndMaterial);
 
 //        String sql = "SELECT * FROM CATEGORY";
-//        String datasourceUrl = "jdbc:mysql://47.97.163.73:3306/test?user=root＆password=password&useUnicode=true&characterEncoding=utf-8&useSSL=true&autoReconnect=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL";
+//        String datasourceUrl = "jdbc:mysql://127.0.0.1:3306/test?user=root＆password=password&useUnicode=true&characterEncoding=utf-8&useSSL=true&autoReconnect=true&serverTimezone=Asia/Shanghai&zeroDateTimeBehavior=CONVERT_TO_NULL";
 //        List<HashMap<String, Object>> refResultList = DBUtil.getInstance(datasourceUrl).getRefResultList(sql);
 //        System.out.println(refResultList);
 //        String result = (String) JSONArray.toJSON(refResultList);
